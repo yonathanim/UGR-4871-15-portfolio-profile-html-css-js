@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yonathan Portfolio</title>
+    <title>Projects - Yoni</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,82 +26,65 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
+    <!-- Projects Content -->
+    <main class="projects-page">
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Yonathan Desalegn</h1>
-                    <p>Software Engineering Student</p>
-                </div>
-                <div class="hero-image">
-                    <img src="images/pp.PNG" alt="Profile">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-grid">
-                <div class="about-card">
-                    <p>I'm a passionate software engineering student with expertise in building modern web applications and solving complex problems through innovative solutions.</p>
-                </div>
-                <div class="about-card">
-                    <p>Name: Yonathan Desalegn</p>
-                    <p>Role: Student</p>
-                    <p>Location: Ethiopia</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/weather.jpg" alt="Weather App">
+            <!-- Weather App Section -->
+            <section class="project-section">
+                <h2>weather app</h2>
+                <div class="project-content">
+                    <div class="project-description">
+                        <p>A weather application using Flutter with a clean and intuitive UI. Implemented real-time weather data retrieval and location services. Features modern neon-styled weather icons and dark mode support.</p>
                     </div>
-                    <h3>Weather App</h3>
-                </div>
-                <div class="project-card">
                     <div class="project-image">
-                        <img src="images/ride.jpg" alt="Ride App">
+                        <img src="images/weather.jpg" alt="Weather App Screenshots">
                     </div>
-                    <h3>Ride App</h3>
                 </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/fitness.jpg" alt="Fitness App">
-                    </div>
-                    <h3>Fitness App</h3>
-                </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume">
-        <div class="container">
-            <h2>Resume</h2>
-            <div class="resume-grid">
-                <div class="resume-card">
-                    <img src="images/certi 1.jpg" alt="Resume">
+            <!-- Ride App Section -->
+            <section class="project-section">
+                <h2>Ride app</h2>
+                <div class="project-content">
+                    <div class="project-image">
+                        <img src="images/ride.jpg" alt="Ride App Screenshots">
+                    </div>
+                    <div class="project-description">
+                        <p>Designed and implemented the user interface for a ride-sharing app, focusing on user experience and responsiveness. Integrated Firebase for authentication, database, and cloud storage.</p>
+                    </div>
                 </div>
-                <div class="resume-card">
-                    <img src="images/certi 2.jpg" alt="Certificate 1">
+            </section>
+
+            <!-- Fitness App Section -->
+            <section class="project-section">
+                <h2>Fitness app</h2>
+                <div class="project-content">
+                    <div class="project-description">
+                        <p>Built using React, featuring a responsive UI to enhance user engagement. Incorporated interactive features for tracking fitness goals, workouts, and progress monitoring with comprehensive health metrics.</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/fitness.jpg" alt="Fitness App Screenshots">
+                    </div>
                 </div>
-                <div class="resume-card">
-                    <img src="images/certi 3.jpg" alt="Certificate 2">
+            </section>
+
+            <!-- Resume Section -->
+            <section class="resume-preview">
+                <h2>Resume</h2>
+                <div class="resume-grid">
+                    <div class="resume-item">
+                        <img src="images/certi 1.jpg" alt="Resume">
+                    </div>
+                    <div class="resume-item">
+                        <img src="images/certi 2.jpg" alt="Certificate 1">
+                    </div>
+                    <div class="resume-item">
+                        <img src="images/certi 3.jpg" alt="Certificate 2">
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
-    </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -165,6 +148,6 @@
             </div>
         </div>
     </footer>
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
